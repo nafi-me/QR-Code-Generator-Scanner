@@ -1,0 +1,40 @@
+/* Simple style for the app */
+.root {
+    -fx-font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    -fx-font-size: 13px;
+}
+
+.label {
+    -fx-text-fill: #e6eef8;
+}
+
+/* Buttons */
+.button {
+    -fx-background-radius: 8;
+    -fx-padding: 8 12;
+    -fx-background-color: linear-gradient(#7c5cff, #00d4ff);
+    -fx-text-fill: white;
+    -fx-font-weight: 700;
+}
+.button:disabled {
+    -fx-opacity: 0.5;
+}
+
+/* Text areas and fields */
+.text-area, .text-field {
+    -fx-background-color: rgba(255,255,255,0.03);
+    -fx-border-color: rgba(255,255,255,0.06);
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-text-fill: #e6eef8;
+}
+
+/* Status label color */
+.label-status {
+    -fx-text-fill: #9be7ff;
+}
+
+/* Separators */
+.separator {
+    -fx-background-color: rgba(255,255,255,0.03);
+}
